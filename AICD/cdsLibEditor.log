@@ -1,0 +1,35 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 08/16/2019 17:07 (sjfhw025) $
+\o Sub version:		sub-version  s053 
+\o Arguments:		-display :0 -mpssession virtuoso17228 -mpshost it075842.wks.bris.ac.uk -namespace CDBA -cdslib /home/vn22984/AICD/cds.lib 
+\o Working Directory:	it075842.wks.bris.ac.uk:/home/vn22984/AICD
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(0 27 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(150 177 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 6 0)
+\o Active cell: 6 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 6 0 "Designs_zx")
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "./Design")
+\o QUESTION (CLE-200): The directory "./Design" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a nrResizeWindow(needCreateDialog list(225 277 350 200))
+\a nrResizeWindow(needCreateDialog list(225 240 350 200))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "./Designs_zx")
+\a nrListItemAction(cdsLibEditor->mainTable 7 0)
+\o Active cell: 7 0 ""
+\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
+\a nrSetWindowVisibility(needSaveDialog "show")
+\a nrSetCurrentWindow(needSaveDialog)
+\a nrResizeWindow(needSaveDialog list(206 306 369 136))
+\a nrResizeWindow(cdsLibEditor list(150 140 500 400))
+\a needSaveDialog->yesButton->value = t
+\a exit(0)

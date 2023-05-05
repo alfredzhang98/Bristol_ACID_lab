@@ -1,0 +1,5 @@
+# File Created by Qingyu Zhang at Tue Apr 18 09:25:22 2023
+# assisted by CdsLibEditor
+INCLUDE $GPDK180_PATH
+DEFINE Designs ./Designs
+#Removed by ddDeleteObj: DEFINE Designs_zx ./Designs_zx

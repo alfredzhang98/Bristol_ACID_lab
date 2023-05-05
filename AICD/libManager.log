@@ -1,0 +1,109 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 08/16/2019 17:05 (sjfhw025) $
+\o Sub version:		sub-version  s053 
+\o Arguments:		-unmapped -mpssession virtuoso31132 -mpshost it075815.wks.bris.ac.uk 
+\o Working Directory:	it075815.wks.bris.ac.uk:/home/vn22984/AICD
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/vn22984/AICD") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/vn22984/AICD/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 49 800 522))
+\a cdsLibManager->libListBox->value = "Designs"
+\a cdsLibManager->libLineEdit->value = "Designs"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "Designs"
+\a cdsLibManager->libLineEdit->value = "Designs"
+\a cdsLibManager->cellListBox->value = "opamp_cw"
+\a cdsLibManager->cellLineEdit->value = "opamp_cw"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(cdsLibManager list(0 49 1512 774))
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Designs"
+\a cdsLibManager->libLineEdit->value = "Designs"
+\a cdsLibManager->cellListBox->value = "opamp_cw"
+\a cdsLibManager->cellLineEdit->value = "opamp_cw"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab124_vregulator_p2"
+\a cdsLibManager->cellLineEdit->value = "lab124_vregulator_p2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "opamp_cw_bigger"
+\a cdsLibManager->cellLineEdit->value = "opamp_cw_bigger"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->cellListBox->value = "opamp_cw"
+\a cdsLibManager->cellLineEdit->value = "opamp_cw"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "opamp_cw"
+\a cdsLibManager->cellLineEdit->value = "opamp_cw"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 20 0)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Designs"
+\a cdsLibManager->libLineEdit->value = "Designs"
+\a cdsLibManager->cellListBox->value = "opamp_cw"
+\a cdsLibManager->cellLineEdit->value = "opamp_cw"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(0 49 1066 694))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
