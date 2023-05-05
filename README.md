@@ -2,7 +2,7 @@
 
 
 
-The [auto_aicd.sh](auto_aicd.sh) file could be please anywhere in the linux system.
+The [auto_aicd.sh](auto_aicd.sh) file could be placed at anywhere in the linux system.
 
 Before run it git it a permission:
 
